@@ -9,8 +9,6 @@ import Timeline from "@material-ui/icons/Timeline";
 import Ballot from "@material-ui/icons/Ballot";
 import Brush from "@material-ui/icons/Brush";
 import LocalLibrary from "@material-ui/icons/LocalLibrary";
-import ContactMail from "@material-ui/icons/ContactMail";
-import InsertDriveFile from "@material-ui/icons/InsertDriveFile";
 import NavLink from "react-router-dom/NavLink";
 
 const NavLinks = () => {
@@ -58,27 +56,6 @@ const NavLinks = () => {
             <ListItemText primary="Education" />
           </ListItem>
         </NavLink>
-        <NavLink to="/contact/" style={{ textDecoration: "none" }}>
-          <ListItem button>
-            <ListItemIcon>
-              <ContactMail />
-            </ListItemIcon>
-            <ListItemText primary="Contact" />
-          </ListItem>
-        </NavLink>
-        <a
-          href="https://drive.google.com/file/d/1cnQXM39H5w0zLte5Q_dd0UTt5794eJwr/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: "none" }}
-        >
-          <ListItem button>
-            <ListItemIcon>
-              <InsertDriveFile />
-            </ListItemIcon>
-            <ListItemText primary="Resume (.pdf)" />
-          </ListItem>
-        </a>
       </List>
     </div>
   );

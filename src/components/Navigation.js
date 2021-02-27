@@ -13,7 +13,6 @@ import NavLinks from "./NavLinks";
 import About from "./About";
 import Experience from "./Experience";
 import Education from "./Education";
-import Contact from "./Contact";
 import Projects from "./Projects";
 import Skills from "./Skills";
 
@@ -118,7 +117,6 @@ class Navigation extends React.Component {
           <Route path="/projects/" component={Projects} />
           <Route path="/skills/" component={Skills} />
           <Route path="/education/" component={Education} />
-          <Route path="/contact/" component={Contact} />
         </main>
       </div>
     );
